@@ -1,12 +1,3 @@
-// 固定取值范围的类型
-
-// Unsigned Integer and Signed Integer
-
-// u8，取值范围 2 - (2^8-1)，通常表示字节序列，在文件I/O和网络I/O读取数据流的时候使用。
-
-// 动态取值范围的类型
-
-// 浮点数
 fn main() {
     let num = 42u32;
     let num: u32 = 42;
